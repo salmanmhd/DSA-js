@@ -1,6 +1,3 @@
-const obj = {};
+const obj = { hi: 1 };
 
-obj.s = 1;
-obj[1] = 2;
-
-console.log(obj);
+console.log(obj[2]);
