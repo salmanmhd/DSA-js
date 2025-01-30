@@ -1,4 +1,3 @@
-const arr = [1, 2, 3, 4, 5];
+console.log('sum :>> ', 0 + -99);
 
-arr.splice(0, 2);
-console.log(arr);
+console.log(-Infinity > -99);
