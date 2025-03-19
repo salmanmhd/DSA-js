@@ -1,3 +1,1 @@
-console.log('sum :>> ', 0 + -99);
-
-console.log(-Infinity > -99);
+console.log('12' === '121');
