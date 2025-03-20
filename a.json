@@ -1,0 +1,44 @@
+[
+  {
+    "name": "public",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "app.jsx",
+        "isFolder": false
+      },
+      {
+        "name": "images",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "abc.png",
+            "isFolder": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "index.js",
+        "isFolder": false
+      },
+      {
+        "name": "main.js",
+        "isFolder": false
+      },
+      {
+        "name": "abc.js",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "index.css",
+    "isFolder": false
+  }
+]

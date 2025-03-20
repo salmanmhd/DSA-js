@@ -44,4 +44,34 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-console.log(fibonacci(8));
+// console.log(fibonacci(8));
+
+function reverseString(str) {
+  const length = str.length;
+  if (length == 0) return '';
+
+  return str.charAt(length - 1) + reverseString(str.substring(0, length - 1));
+}
+
+// console.log(reverseString('salman'));
+
+function subSets(arr) {
+  const result = [];
+  const temp = [];
+
+  function recursiveSubset(nums, i) {
+    if (nums.length === i) {
+      return result.push([...temp]);
+    }
+
+    temp.push(nums[i]);
+    recursiveSubset(nums, i + 1);
+    temp.pop();
+    recursiveSubset(nums, i + 1);
+  }
+
+  recursiveSubset(arr, 0);
+  return result;
+}
+
+console.log(subSets([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
